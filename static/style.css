@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    background: url("/static/images/bg.jpg") no-repeat center center/cover;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Glassmorphism card */
+.card {
+    width: 400px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #000;
+}
+
+/* Button enhancement */
+.btn-primary {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+/* Preview image */
+#preview {
+    border-radius: 12px;
+    max-height: 200px;
+    object-fit: cover;
+}
